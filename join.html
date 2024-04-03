@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Join Us</title>
+<link rel="stylesheet" href="styles/join.css">
+</head>
+<body>
+    <div class="web-logo-container">
+        <img class="web-logo" src="images/website-logo.png" alt="our logo">
+        <marquee behavior="scroll" direction="right">
+            <h1 class="help">Make Tech Career Easier For All Don't Just Watch The Game; Play The Game;
+            </h1>
+        </marquee>
+        <a class="home-link" href="home.html">Main Page</a>
+    </div>
+    <div class="hero">
+        <div class="card">
+            <p class="intro-para">
+                <span class="welcome">Welcome!!!</span> <br>
+                    Please fill in the required info to join us</p>
+            <form id="joinForm">
+                <label for="nameInput">Name:</label> <br>
+                <input type="text" id="nameInput" placeholder="Your Name"> <br>
+                <img src="/images/profile.jpeg" alt="" id="profile-pic"> <br>
+                <label for="imageInput">Fix Headshot</label> <br>
+                <input type="file" id="imageInput" accept="image/*"> <br>
+                <label for="targetInput">Target</label> <br>
+                <input type="text" id="targetInput" placeholder="Your Target"> <br>
+                <label for="socialMediaInput">Media</label> <br>
+                <input type="text" id="socialMediaInput" placeholder="Your Social Media"><br>
+                <label for="selectInput">One Specialized P.language</label> <br>
+                <select id="selectInput"> <br>
+                    <option value="Assembly Language">Assembly Langauge</option>
+                    <option value="Java">Java</option>
+                    <option value="JavaScript">Javascript</option>
+                    <option value="Python">Python</option>
+                    <option value="Ruby">Ruby</option>
+                    <option value="R">R</option>
+                    <option value="Game Maker Language">Game Maker Langauge</option>
+                    <option value="Go">Go</option>
+                    <option value="Pearl">Perl</option>
+                    <option value="Sql">SQL</option>
+                    <option value="Swift">Swift</option>
+                    <option value="ABAP">ABAP</option>
+                    <option value="APL">APL</option>
+                    <option value="MATLAB">MATLAB</option>
+                    <option value="Rust">Rust</option>
+                    <option value="Action Script">Action Script</option>
+                    <option value="Ada">Ada</option>
+                    <option value="Algol">Algol</option>
+                    <option value="Autolt">Autolt</option>
+                    <option value="Basic">Basic</option>
+                    <option value="D">D</option>
+                    <option value="C++">C++</option>
+                    <option value="C">C</option>
+                    <option value="PHP">PHP</option>
+                    <option value="HTML" selected>HTML</option>
+                    </select><br>
+                <button class="join" type="submit">Submit</button>
+            </form>
+            <button class="meet-btn">Meet The Crew</button>
+        </div> 
+    </div> 
+     <div class="outputContainer">
+        <marquee behavior="scroll" direction="down-up">
+            <div id="output">Your data has been successfully <br>
+                submitted; We will contacting you. The display feature is coming soon </div>
+        </marquee>
+    </div>  
+<script src="JavaScript/join.js">
+</script>    
+</body>
+</html>

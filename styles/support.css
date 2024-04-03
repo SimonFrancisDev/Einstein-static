@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    
+}
+
+a {
+    text-decoration:  none;
+    color: blueviolet;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.web-logo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    z-index: 99;
+    padding: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+
+.web-logo {
+    width: 120px;
+    border-right: 3px solid blue;
+    padding-right: 20px;
+     border-radius: 60px;
+}
+
+.help {
+    color: blue;
+    font-weight: 400px;
+    font-size: 40px;
+}
+
+.home-link {
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500px;
+    border-radius: 15px;
+}
+
+.home-link:hover {
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+    transition: 0.8s;
+}
+
+.main-div {
+    margin-top: 250px;
+}
+
+.first-main-div {
+    margin-bottom: 100px;
+    color: blue;
+    font-size: 16px;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.second-main-div {
+    text-align: center;
+    color: rgb(255, 0, 0);
+    font-size: large;
+    margin-bottom: 30px
+}
+
+.platform-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 70px;
+}
+
+.facebook-link {
+    width: 50px;
+}
+
+.messenger-link {
+    width: 70px;
+}
+
+.whatsapp-link {
+    width: 50px;
+}
+
+.instagram-link {
+    width: 70px;
+}

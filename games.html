@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rock Paper Scissors</title>
+    <link href="styles/games.css" rel="stylesheet">   
+  </head>   
+  <body>
+    <div class="web-logo-container">
+      <img class="web-logo" src="images/website-logo.png" alt="our logo">
+      <p class="look">Look out for our new game page coming soon!!! </p>
+      <a class="home-link" href="home.html">Go to Home</a>
+    </div>
+    <div class="body-container">
+          <div class="game-features-div">
+              <img class="coins-image" src="images/gamescoins.jpeg" alt="">
+              <p class="amount">$0.00</p>
+              <p class="rate-statement">Rate game:</p>
+              <button class="sound-btn">off sound</button>
+              <p class="rate-number">0</p>
+              <img class="star" src="images/star.jpeg" alt=""> <br>
+              <button class="star-btn five sound-active">5 <img class="review-star" src="images/star.jpeg" alt=""></button>
+              <button class="star-btn four sound-active">4 <img class="review-star" src="images/star.jpeg" alt=""></button>
+              <button class="star-btn three sound-active">3 <img class="review-star" src="images/star.jpeg" alt=""></button>
+              <button class="star-btn two sound-active">2 <img class="review-star" src="images/star.jpeg" alt=""></button>
+              <button class="star-btn one sound-active">1 <img class="review-star" src="images/star.jpeg" alt=""></button>
+          </div>
+          <div>
+            <p class="title">Rock Paper Scissors Game</p>
+          </div>
+          <div>
+            <button class="icon-button js-rock-button sound-active">
+              <img class='move-icon' 
+              src="images/rock-emoji.png">
+            </button>
+            <button class="icon-button js-paper-button sound-active">
+              <img class='move-icon' 
+              src="images/paper-emoji.png">
+            </button>
+            <button class="icon-button js-scissors-button sound-active">
+              <img class='move-icon' 
+              src="images/scissors-emoji.png">
+            </button>
+          </div>
+          <div>
+            <p class="js-game-guide"></p>
+          </div>
+          <div>
+            <button class="js-click-button rules js-game-rules sound-active">Learn Game</button>
+          </div>
+          <div>
+            <p class="js-result result"></p>
+          </div>
+          <div>
+            <p class="js-move"></p>
+          </div>
+          <div>
+            <p class="js-score score"></p>
+          </div>
+          <div>
+            <p class="use-coins">
+            </p>
+            <p class="insufficient"></p>
+          </div>
+          <div>
+            <button class="reset-score-button js-reset-score-button sound-active">Reset score</button>
+            <button disabled class="auto-play-button js-autoPlay-button sound-active">Auto Play</button>
+          </div>
+          <div>
+            <p class="js-comfirmation-message"></p>
+          </div>
+          <div>
+            <button class="quit-btn sound-active">Quit Game</button>
+          </div>
+          <div>
+            <p class="info">simplegameproduction powered by einsteinengine <br>
+              @<span class="info-paragraph">FranciscoMartos.com.EECF7-24</span></p>
+          </div>
+    </div>
+    <div class="comment-section">
+      <input id="nicknameInput" type="text" placeholder="refer me as"> 
+      <textarea placeholder="Give a review...." name="" id="textarea" cols="70" rows="5"></textarea>
+       <button class="sound-active" id="send">Send</button>
+    </div>
+    <div class="comment-view">
+    </div>
+    <script src="JavaScript/games.js"></script>
+  </body>
+</html>

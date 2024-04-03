@@ -1,0 +1,189 @@
+body {
+    background: blueviolet;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 200px;
+}
+
+.web-logo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    z-index: 99;
+    padding: 30px;
+    padding-bottom: 10px;
+    border-bottom: 5px solid blue;
+}
+
+.web-logo {
+    width: 120px;
+    border-right: 3px solid blue;
+    padding-right: 20px;
+     border-radius: 60px;
+}
+
+.help {
+    color: blue;
+    font-weight: 400px;
+    font-size: 40px;
+}
+
+.home-link {
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500px;
+    border-radius: 15px;
+}
+
+.home-link:hover {
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+    transition: 0.8s;
+}
+
+.main-div {
+    margin-top: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.improve-image {
+    width: 350px;
+    border-right: 5px solid white;
+    padding-right: 70px;
+    margin-right: 25px;
+}
+
+.opinion-image {
+    width: 100px;
+    background: transparent;
+    margin-bottom: -20px;
+}
+
+.first-image-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.intro-para {
+max-width: 1300px;
+word-spacing: 25px;
+letter-spacing: 2px;
+}
+
+h5 {
+    color: rgb(0, 0, 0)
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: white;
+    transition: 0.9s;
+}
+
+.textarea {
+    padding: 30px;
+    outline: none;
+    color: blue;
+    font-size: 20px;
+    letter-spacing: 3px;
+    word-spacing: 7px;
+    height: 70px;
+}
+
+::placeholder {
+    color: rgb(202, 198, 198)
+}
+
+.username {
+    padding: 30px;
+    outline: none;
+    color: blue;
+    font-size: 20px;
+    letter-spacing: 3px;
+    word-spacing: 7px;
+}
+
+input[type='submit'] {
+    color: white;
+    background: green;
+    padding: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    margin-top: -15px;
+    margin-left: 300px;
+}
+
+@media screen and (max-width: 625px) {
+        body {
+            background: blueviolet;
+            color: white;
+            font-size: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            padding: 150px
+        }
+
+        .improve-image {
+            width: 250px;
+            border-right: 5px solid white;
+            padding-right: 50px;
+            margin-left: 55px;
+        }
+        
+
+        .intro-para {
+            width: 570px;
+            word-spacing: 15px;
+            letter-spacing: 2px;
+            font-size: 20px;
+            text-align: center;
+            padding: 20px;
+            }
+
+            .textarea {
+                width: 450px;
+                padding: 30px;
+                outline: none;
+                color: blue;
+                font-size: 20px;
+                letter-spacing: 3px;
+                word-spacing: 7px;
+                height: 40px;
+                border-radius:5px solid white;
+            }
+
+            label {
+                font-size : 24px
+            }
+            
+}

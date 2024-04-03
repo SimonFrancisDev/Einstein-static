@@ -1,0 +1,286 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.web-logo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    z-index: 99;
+    padding: 30px;
+}
+
+.web-logo {
+    width: 120px;
+    border-right: 3px solid blue;
+    padding-right: 20px;
+     border-radius: 60px
+}
+
+.home-link {
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500px;
+    border-radius: 15px;
+}
+
+.home-link:hover {
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+    transition: 0.8s;
+}
+
+.about {
+    margin-top: 200px;
+    color: blue;
+    font-size: 40px;
+}
+
+.first-container,
+.second-container,
+.third-container,
+.fourth-container,
+.fifth-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.image1,
+.image2,
+.image3,
+.image4,
+.image5 {
+    margin-right: 30px;
+}
+
+.image1 {
+    width: 150px;
+    height: 230px;
+}
+
+.image2 {
+    width: 150px;
+    height: 230px;
+    margin-left: -175px;
+}
+
+.image3 {
+    width: 150px;
+    height: 250px;
+    margin-left: -140px;
+}
+
+.image4 {
+    width: 150px;
+    height: 250px;
+    border: 1px solid rgb(206, 6, 224);
+    margin-left: -85px;
+}
+
+.image5 {
+    width: 150px;
+    margin-left: -150px;
+}
+
+p {
+    color: blue;
+    font-size: 20px;
+}
+
+.image1-para {
+    position: relative;
+    word-spacing: 17px;
+}
+
+.image2-para {
+    position: relative;
+    word-spacing: 17px;
+}
+
+.image3-para {
+    position: relative;
+    word-spacing: 17px;
+}
+
+.image4-para {
+    position: relative;
+    word-spacing: 17px;
+}
+
+.image5-para {
+    word-spacing: 17px;
+    position: relative;
+}
+
+.help-link {
+    position: absolute;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.meet-link {
+    position: absolute;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.join-link {
+    position: absolute;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.games-link {
+    position: absolute;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+.how-btn {
+    position: absolute;
+    top: 160px;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 15px;
+}
+
+.predict {
+    position: absolute;
+    top: 160px;
+    right: -150px;
+    text-decoration: none;
+    margin-left: 30px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.how-exp {
+    position: absolute;
+    top: 135px;
+    color: white;
+    background-color: blue;;
+    width: 500px;
+}
+
+.got-it-btn-js {
+    color: blue;
+    background-color: white;;
+    font-size: 20px;
+    padding: 7px;
+    border-radius: 15px
+}
+
+.help-link:hover,
+.meet-link:hover,
+.join-link:hover,
+.games-link:hover,
+.how-btn:hover,
+.predict:hover {
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+    transition: 0.8s;
+}
+
+@media screen and  (max-width: 625px) {
+   
+
+    .first-container,
+    .second-container,
+    .third-container,
+    .fourth-container,
+    .fifth-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 150px;
+        padding-left: 30px
+    }
+
+    .image1-para {
+        position: relative;
+        word-spacing: 7px;
+    }
+    
+    .image2-para {
+        position: relative;
+        word-spacing: 7px;
+    }
+    
+    .image3-para {
+        position: relative;
+        word-spacing: 7px;
+    }
+    
+    .image4-para {
+        position: relative;
+        word-spacing: 7px;
+    }
+    
+    .image5-para {
+        word-spacing: 7px;
+        position: relative;
+    }
+
+    .image1 {
+        border-radius: 20px;
+    }
+
+    .image2 {
+        margin-left: 10px;
+        border-radius: 20px;
+        rotate: 5deg;
+    }
+
+    .image3 {
+        margin-left: 10px;
+        border-radius: 20px;
+        rotate: 10deg;
+    }
+
+    .image4 {
+        margin-left: 10px;
+        border-radius: 20px;
+        rotate: 15deg;
+    }
+
+    .image5 {
+        margin-left: 10px;
+        border-radius: 20px;
+        rotate: 20deg;
+    }
+}       

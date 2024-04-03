@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <link rel="stylesheet" href="styles/register.css">
+</head>
+<body>
+    <div class="header">
+        <div class="left-div">
+            <img class="web-logo" src="images/website-logo.png" alt="web-logo">
+        </div>
+        <div class="right-div">
+          <a class="about" href="about.html">About</a>
+          <a class="help" href="help.html">Help</a>
+          <a class="support" href="support.html">Support</a>
+        </div>
+    </div>
+
+    <div class="main-div">
+         <div class="form-div">
+        <h2 class="heading-register">Register</h2>
+        <form action="register.php" method="post">            
+            <label for="username">Username:</label>
+             <input type="text" 
+              name="username" 
+              placeholder="username" 
+              id="username" 
+              required> <br> <br>
+   
+             <label for="password">Password:</label>
+             <input type="password" 
+              name="password" 
+              placeholder="xxxx" 
+              id="password" 
+              required> <br> <br>
+              
+              <label for="email">Email:</label>
+              <input type="email"
+              name="email"
+              placeholder="john@yahoo.com"
+              id="email"
+              required> <br> <br>
+              
+                <input type="submit" 
+              name="submit"
+              value="Register"><br><br>
+
+              <p class="sign-in">Already have an account?
+                <a class="sign-in-link" href="login.html" target="">Sign in</a></p>
+    
+           </fieldset>
+           </form> 
+         </div>
+         <div class="why-div">
+            <p class="question">Why should I Register ?</p>
+            <p class="answer">Registration gives you unlimited access to
+                <ul>
+                    <li class="list">Creation of free account</li>
+                    <li class="list">Protected User Info</li>
+                    <li class="list">Secured and Saved User data and entries</li>
+                    <li class="list">Easy Access to free online brain test</li>
+                    <li class="list">Free online simple gaming platform</li>
+                </ul>
+            </p>
+            <p class="terms-policies">By clicking the "I Agree" button; You accept our <a class="terms" href="terms.html">Terms & Policies</a></p><br>
+            <button class="agree-btn">I Agree</button>
+         </div>
+    </div>
+
+         <div class="footer">
+            <div class="contact">Contact us @EinstienEngine via:
+            </div>
+            <div class="link-div">
+                <a class="footer-image-links" href="https://www.facebook.com/profile.php?id=61557518491895"><img class="facebook" src="images/facebook.webp"></a>
+                <a class="footer-image-links" href="https://www.instagram.com/cityfordevs?igsh=YzljYTk10Dg3Zg=="><img class="insta" src="images/instagram.webp"></a>
+                <a class="footer-image-links" href="mailto:einsteinenginefordevs@gmail.com"><img class="messenger" src="images/gmail.jpeg"></a>
+                <a class="footer-image-links" href="https://wa.me/09067462041"><img class="whatsapp" src="images/whatsapp.webp"></a>
+            </div>
+            </div>
+      <div></div>
+    <script src="JavaScript/register.js"></script>
+</body>
+</html>

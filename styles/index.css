@@ -1,0 +1,199 @@
+body{
+    background: rgb(255, 255, 255);
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 450px;
+    background: rgba(238, 238, 242, 0.8);
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    margin-top: -50px;
+    border: none;
+    box-shadow: 10px 10px 5px rgb(234, 237, 238) outset;
+    border-radius: 10px;
+}
+
+.title-logo-div {
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.title-einstein,
+.title-engine,
+.e1,
+.e2  {
+    position: absolute;
+}
+
+.e1 {
+  top: -130px; 
+  font-size: 94px;
+  color: blue;
+  margin-left: -100px;
+
+}
+
+.e2 {
+    font-size: 94px;
+    top: -110px;
+    color: blue;
+    margin-left: -100px;
+}
+
+.title-einstein {
+    top: -12px;
+    right: 27px;
+    color: blue;
+    margin-right: -70px;
+}
+
+.title-engine {
+    top: 10px;
+    right: 55px;
+    color: blue;
+    margin-right: -70px;
+}
+
+.login {
+    color: blue;
+    font-size: 18px;
+    margin-left: -160px;
+}
+
+.form-control {
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 7px;
+}
+
+.btn {
+    padding: 7px;
+    width: 100px;
+    color: white;
+    background: blue;
+    border: none;
+    border-radius: 2px;
+    font-size: 18px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    border-radius: 7px;
+}
+
+.forgotten-password-div {
+    margin-right: 0px;
+    margin-bottom: 20px;
+}
+
+.forgotten-password-link {
+    text-decoration: none;
+    font-weight: 500px;
+    font-size: 17px;
+    color: rgb(97, 3, 97)
+}
+
+.forgotten-password-link:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.or-div {
+    position: relative;
+    margin-bottom: 80px;
+}
+
+.or {
+    position: absolute;
+    right: 0px;
+    font-size: 20px;
+
+}
+
+.line1 {
+    position: absolute;
+    top: -5px;
+    left: 20px;
+    font-size: 20px;
+}
+
+.line2 {
+    position: absolute;
+    top: -5px;
+    left: -135px;
+    font-size: 20px;
+}
+
+.create-new-account-div {
+    margin-bottom: 30px;
+}
+
+.register-link {
+    text-decoration: none;
+    font-weight: 500px;
+    font-size: 17px;
+    color: rgb(97, 3, 97)   
+}
+
+ .register-link:hover {
+    color:  blue;
+    text-decoration: underline; 
+}
+ .base-links {
+    position: relative;
+    margin-bottom: 30px;
+ }
+
+.contact {
+  position: absolute;
+  font-weight: 500px;
+  font-size: 18px;
+  margin-right: 7px;
+  text-decoration: none;
+  left: -100px;
+  cursor: no-drop;
+  pointer-events: none;
+}
+
+.about {
+  position: absolute;
+  left: -20px;
+  font-weight: 500px;
+  font-size: 18px;
+  margin-right: 7px;
+  text-decoration: none;
+   cursor: no-drop;
+   pointer-events: none;
+}
+
+.help {
+    position: absolute;
+    right: -100px;
+    font-weight: 500px;
+    font-size: 18px;   
+    text-decoration: none;
+    cursor: no-drop;
+    pointer-events: none;
+}
+
+.contact:hover,
+.about:hover,
+.help:hover {
+    text-decoration: underline;
+}
+
+.base-info {
+    color: blue;
+    font-size: 20px;
+;}

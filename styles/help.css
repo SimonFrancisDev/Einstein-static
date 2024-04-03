@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    
+}
+
+a {
+    text-decoration:  none;
+    color: blueviolet;
+}
+
+.web-logo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    z-index: 99;
+    padding: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+
+.web-logo {
+    width: 120px;
+    border-right: 3px solid blue;
+    padding-right: 20px;
+     border-radius: 60px;
+}
+
+.help {
+    color: blue;
+    font-weight: 400px;
+    font-size: 40px;
+}
+
+.home-link {
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500px;
+    border-radius: 15px;
+}
+
+.home-link:hover {
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+    transition: 0.8s;
+}
+
+.search-box {
+    width: 600px;
+    background: white;
+    margin: 200px auto 0;
+    margin-left: 950px;
+    border-radius: 7px;
+    border: 1px solid blue;
+}
+
+.search-btn {
+    width: 40px;
+    height: 40px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+input {
+    flex: 1;
+    height: 50px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    color: blue;
+}
+
+button {
+    background: transparent;
+    border: 0;
+    outline: 0;
+}
+
+button .fa-solid {
+    width: 25px;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+::placeholder{
+    color: white;
+    color: blue;
+}
+
+.result-box ul {
+    border-top: 1px solid #999;
+    color: blue;
+    padding: 15px 10px;
+}
+
+.result-box ul li {
+    list-style: none;
+    border-radius: 3px;
+    padding: 15px 10px;
+    cursor: pointer;
+}
+
+.result-box ul li:hover {
+    background: gray;
+}
+
+.result-box {
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+.ans-div {
+    color:  blue;
+    margin-top: 200px;
+    font-size: 25px;
+    margin-left: 50px;
+    text-align: center;
+    word-spacing: 3px;
+    letter-spacing: 4px;
+    line-height: 50px;
+}
+
+.btn-text {
+    color: white;
+    font-size: 19.5px
+}
+
+.gotit-btn {
+    color: blue;
+    font-size: large;
+    border: 1px solid blue;
+    cursor: pointer;
+    padding: 7px;
+}
+
+@media screen and (max-width: 625px) {
+    .search-box {
+        width: 600px;
+        background: white;
+        color: blue;
+        margin: 200px auto 0;
+        border-radius: 7px;
+    }
+
+    .ans-div {
+        color:  blue;
+        margin-top: 50px;
+        font-size: 25px;
+        margin-left: 50px;
+        text-align: center;
+        word-spacing: 3px;
+        letter-spacing: 4px;
+        line-height: 50px;  
+    }
+    
+}

@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: auto;
+}
+
+body {
+    background: whitesmoke;
+    color: gray;
+    padding: 100px;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    font-size: 25px;
+}
+
+a {
+    color: purple;
+    text-decoration: none;
+}
