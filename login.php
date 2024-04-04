@@ -7,7 +7,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // data connection
 
-    $host = 'localhost';
+    $host = '10.10.10.13';
     $dbusername = 'root';
     $dbpassword = '';
     $dbname = 'form';
