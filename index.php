@@ -1,4 +1,6 @@
-
+<?php
+    include "login.php";
+?>
 <!DOCTYPE html>
     <html lang="en">
         <head>
@@ -21,7 +23,7 @@
             </div>
 
             <div class="form-container">
-                <form action="https://einsteincity.000webhostapp.com/login.php" method="POST">  
+                <form action="login.php" method="POST">  
                     <input 
                         type="text" 
                         name="username" 
