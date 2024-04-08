@@ -344,23 +344,19 @@ h1 {
     cursor: pointer;
 }
 
-@media (max-width: 2000px) {
+@media screen and (min-width: 1588px) and (max-width: 2405px) {
     .middle-div {
         margin-left: -400px;
     }
 }
 
-@media (max-width: 1600px) {
+@media screen and (min-width: 1403px) and (max-width: 1628px) {
     .middle-div {
-        margin-left: -500px
-    }   
+        margin-left: -600px;
+    }
 }
 
-@media (max-width: 1300px) {
-body {
-    overflow-y: scroll;
-}
-
+@media screen  and (min-width: 626px) and (max-width: 1403px) {
     .header {
         position: fixed;
         top: 0px;
@@ -368,46 +364,39 @@ body {
         left: 0px;
         height: 200px;
         display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
         align-items: center;
-        justify-content: space-evenly;
-        padding-top: 10px;
-        padding-right: 10px;
-        padding-bottom: 10px;
-        padding-left: 10px;
+        padding: 15px;
         background: white;
         z-index: 99;
-        border-bottom: 1px solid blue;
+    }
+
+    .web-logo  {
+        width: 100px;
+        margin-top: 55px;
+        margin-left: 500px;
+        margin-bottom: 30px;
+        border-radius: 3px;
+    }
+
+    .header-left-div {
+        margin-left: -450px;
+        margin-top: 20px;
     }
 
     .header-right-div {
-        position: relative;
-        display: grid;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        justify-content: space-evenly;
-        align-items: center;
-        row-gap: 290px;
-        flex-shrink: 0;
-        margin-left: 730px;
-        padding-right: 20px;
-        margin-bottom: 70px;
-        margin-top: -5px;
-    }  
+        margin-left: 100px;
+    }
 
     .middle-div {
-        margin-top: -100px;
-        margin-left: 200px;
+        margin-top: -90px;
     }
 
-    .web-logo {
-        margin-left: -80px;
+    .result-box {
+        max-height: 100px;
     }
-
-    .header-right-div {
-        margin-right: -200px;
-    }
-}
-
-@media (max-width: 1000px) {
+    
     .main-div {
         margin-top: 50px;
         font-size: 15px;
@@ -439,16 +428,7 @@ body {
         }
 }
 
-
-@media (max-width: 800px) {
-    
-}
-
-@media (max-width: 575px) {
-    
-}
-
-@media (max-width: 625px) {
+@media screen and  (min-width: 524px) and (max-width: 625px) {
     body {
         overflow-y: scroll;
         padding-left: 30px;

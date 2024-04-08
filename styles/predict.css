@@ -309,7 +309,57 @@ a:hover {
    website look good on any screen size). This @media
    means when the screen width is 2000px or less, we
    will divide the grid into 7 columns instead of 8. */
-@media (max-width: 625px) {
+
+@media screen and (min-width: 626px) and (max-width: 1113px) {
+    body {
+        padding: 20px;
+        overflow-y: auto;
+        overflow-x: auto;
+    }
+
+    .nav-links {
+        position: fixed;
+        background: blue;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin-top: 160px;
+        margin-bottom: 100px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 3px;
+        z-index: 99;
+        padding: 10px;
+    }
+
+    .leagues-and-there-teams {
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: white;
+        row-gap: 50px;
+        column-gap: 20px;
+        margin-top: 420px;
+    }
+    .scroller {
+        position: fixed;
+        background: white;
+        top: 0px;
+        left: 0px;
+        margin-top: 400px;
+        margin-left: -80px;
+        margin-bottom: -60px;
+        color: red;
+        font-size: 25px
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 625px) {
+    body {
+        padding: 20px;
+        overflow-y: auto;
+        overflow-x: auto;
+    }
+
     .nav-links {
         position: fixed;
         background: blue;

@@ -16,7 +16,7 @@ body {
 .quiz-div {
     color: white;
     font-size: 40px;
-    margin-top: 150px;
+    margin-top: 50px;
     margin-bottom: 50px; 
 }
 
@@ -160,22 +160,12 @@ padding: 30px 0;
     background: #ff9393;
 }
 
-
-
-
-
-.background-image {
-    animation: rotate 3s both infinite linear;
-}
-
-@keyframes rotate {
-    0% {
-        transform: rotateY(0deg);
-    }
-    50% {
-        transform: rotateY(180deg);
-    }
-    100% {
-        transform: rotateY(0deg);
+@media screen and (min-width: 454px) and (max-width: 2409px) {
+    body {
+        padding-top: 0px;
+        padding-bottom: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+        overflow: auto; 
     }
 }

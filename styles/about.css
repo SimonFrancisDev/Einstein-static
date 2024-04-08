@@ -215,8 +215,18 @@ p {
     transition: 0.8s;
 }
 
-@media screen and  (max-width: 625px) {
-   
+@media screen and (min-width:626px) and (max-width: 2045px) {
+    body {
+        overflow-y: auto;
+        overflow-x: auto;
+    }
+}
+
+@media screen and (min-width: 525px) and (max-width: 625px) {
+    body {
+        overflow-y: auto;
+        overflow-x: auto;
+    }
 
     .first-container,
     .second-container,

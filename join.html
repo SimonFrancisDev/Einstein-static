@@ -9,28 +9,23 @@
 <body>
     <div class="web-logo-container">
         <img class="web-logo" src="images/website-logo.png" alt="our logo">
-        <marquee behavior="scroll" direction="right">
-            <h1 class="help">Make Tech Career Easier For All Don't Just Watch The Game; Play The Game;
-            </h1>
-        </marquee>
         <a class="home-link" href="home.html">Main Page</a>
     </div>
     <div class="hero">
         <div class="card">
             <p class="intro-para">
-                <span class="welcome">Welcome!!!</span> <br>
-                    Please fill in the required info to join us</p>
+                    fill in your info to join our community</p>
             <form id="joinForm">
                 <label for="nameInput">Name:</label> <br>
                 <input type="text" id="nameInput" placeholder="Your Name"> <br>
-                <img src="/images/profile.jpeg" alt="" id="profile-pic"> <br>
-                <label for="imageInput">Fix Headshot</label> <br>
+                <img  src="/images/profile.jpeg" alt="" id="profile-pic"> <br>
+                <label  for="imageInput">Fix Headshot</label> <br>
                 <input type="file" id="imageInput" accept="image/*"> <br>
-                <label for="targetInput">Target</label> <br>
+                <label class="target" for="targetInput">Target</label> <br>
                 <input type="text" id="targetInput" placeholder="Your Target"> <br>
-                <label for="socialMediaInput">Media</label> <br>
+                <label class="media" for="socialMediaInput">Media</label> <br>
                 <input type="text" id="socialMediaInput" placeholder="Your Social Media"><br>
-                <label for="selectInput">One Specialized P.language</label> <br>
+                <label class="select" for="selectInput">One Specialized P.language</label> <br>
                 <select id="selectInput"> <br>
                     <option value="Assembly Language">Assembly Langauge</option>
                     <option value="Java">Java</option>
@@ -62,13 +57,7 @@
             </form>
             <button class="meet-btn">Meet The Crew</button>
         </div> 
-    </div> 
-     <div class="outputContainer">
-        <marquee behavior="scroll" direction="down-up">
-            <div id="output">Your data has been successfully <br>
-                submitted; We will contacting you. The display feature is coming soon </div>
-        </marquee>
-    </div>  
+    </div>   
 <script src="JavaScript/join.js">
 </script>    
 </body>

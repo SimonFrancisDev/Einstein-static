@@ -25,14 +25,12 @@ body {
     z-index: 99;
     padding: 30px;
     padding-bottom: 10px;
-    border-bottom: 1px solid blue;
 }
 
 .web-logo {
     width: 120px;
-    border-right: 3px solid blue;
+    border-right: 3px solid black;
     padding-right: 20px;
-    border-radius: 60px;
 }
 
 .help {
@@ -43,8 +41,8 @@ body {
 }
 
 .home-link {
-    background-color: blue;
-    color: white;
+    background-color: black;
+    color: greenyellow;
     padding: 15px;
     text-decoration: none;
     font-size: 20px;
@@ -65,45 +63,45 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 700px;
-    background: blue;
-    padding: 40px;
-    padding-bottom: 150px;
+    width: 600px;
+    background: black;
+    padding: 5px;
+    padding-bottom: 50px;
     border-radius: 15px;
     text-align: center;
-    color: white;
-    height: 1000px;
+    color: goldenrod;
+    height: 850px;
 }
 
 .card img {
-    width: 150px;
-    height: 150px;
-    border-radius: 250px;
+    width: 70px;
+    height: 70px;
+    border-radius: 200px;
     margin-top: 40px;
-    margin-bottom: 30px;  
+    margin-bottom: 10px;  
   }
   
   label {
       width: 200px;
       color: white;
-      padding: 12px;
+      padding: 3px;
       margin: 10px auto;
       margin-bottom: -70px;
       border-radius: 5px;
       cursor: pointer;
       font-size: 20px;
   }
-  
+
   input[type="file"] {
     display: none;
   }
 
   input[type="text"] {
-    font-size: 23px;
+    font-size: 18px;
     width: 400px;
-    padding: 15px;
-    margin-top: 50px;
-    margin-bottom: 30px;
+    padding: 7px;
+    margin-top: 10px;
+    margin-bottom: 50px;
     outline: none;
     cursor: pointer;
     border: 5px solid rgb(244, 239, 239);
@@ -114,8 +112,8 @@ body {
     color: blue;
     font-size: 15px;
     width: 200px;
-    height: 50px;
-    margin-top: 30px;
+    height: 30px;
+    margin-top: 20px;
     margin-bottom: 30px;
     outline: none;
     cursor: pointer;
@@ -128,93 +126,24 @@ body {
     color: gray;
     font-size: 19px
   }
-
-  .view {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 40px;
-    justify-content: center;
-    vertical-align: center;
-  }
-
-  .profile-image {
-    width: 60px;
-    border-radius: 35px;
-    margin-top: 40px;
-    margin-bottom: 30px;
-    margin-left: 70px;
-  }
-
-  .details-container {
-    width: 250px;
-    background: blue;
-    margin-left: 30px;
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: top;
-    border: 1px solid blue;
-    padding: 10px;
-    border-radius: 10px;
-    height: 320px;
-    margin-top: 30px;
-  }
-
-  .name {
-    color: white;
-    font-weight: bold;
-    font-size: 15px;
-    margin-bottom: 30px;
-    text-align: center;
-  }
-
-  .image {
-    width: 60px;
-    border-radius: 35px;
-    margin-top: 40px;
-    margin-bottom: 30px;
-    margin-left: 70px;
-  }
-
-  .area {
-    color: greenyellow;
-    font-weight: bold;
-    font-size: 17px;
-    margin-top: 15px;
-    text-align: center;
-    text-transform: capitalize;
-  }
-
-  .objective {
-    color: rgb(154, 255, 3);
-    text-align: center;
-    font-weight: bold;
-    font-size: 15px;
-    margin-top: -15px;
-    text-transform: capitalize;
-  }
-  
-  .media {
-    color: red;
-    font-weight: bold;
-    font-size: 15px;
-    margin-top: 15px;
-    text-align: center;
-    text-transform: capitalize;
-  }
-
+            
   .intro-para {
     color: red;
-    margin-top: 30px;
+    margin-top: -0px;
     margin-bottom: 30px;
     padding-top: 30px;
   }
 
+  .fix-headshot {
+      margin-top: -100px;
+  }
+
   .welcome {
-    color: white;
+    color: greenyellow;
     font-size: 20px;
-    letter-spacing: 10px;;
+    letter-spacing: 10px;
+    margin-top: -100px;
+    line-height: 50px;
   }
 
   .join {
@@ -246,44 +175,10 @@ body {
     border-radius: 30px;
   }
 
-  #output {
-    display: none;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 30px;
-    justify-content: center;
-    align-items: center;
-    height: 1000px;
-    margin-top: 30px;
-  }
-
-  .outputContainer {
-    width: 1000px;
-  }
-
-
-  @media screen and  (max-width: 625px) {
+  @media screen and (min-width: 525px) and (max-width: 2409px) {
     body {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-evenly;
-      align-items: center;
+      overflow-y: auto;
+      overflow-x: auto;
+      padding: 20px
     }
-
-    #output {
-      display: none;
-      grid-template-columns: 1fr 1fr;
-      column-gap: -30px;
-      row-gap: -30px;
-      justify-content: center;
-      align-items: center;
-      height: 500px;
-      margin-top: 30px;
-    }
-
-    .outputContainer {
-      width: 400px;
-    }
-  
   }
-  
-  

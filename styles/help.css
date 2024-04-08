@@ -159,9 +159,44 @@ button .fa-solid {
     padding: 7px;
 }
 
-@media screen and (max-width: 625px) {
+@media screen and (min-width:626px ) and (max-width: 2397px) {
+    body {
+        overflow-y: auto;
+        overflow-x: auto;
+        padding: 100px;
+    }
+   
     .search-box {
-        width: 600px;
+        position: fixed;
+        width: 400px;
+        background: white;
+        color: blue;
+        margin-left: 87px;
+        border-radius: 7px;
+    }
+
+    .ans-div {
+        color:  blue;
+        margin-top: 50px;
+        font-size: 25px;
+        margin-left: 50px;
+        text-align: center;
+        word-spacing: 3px;
+        letter-spacing: 4px;
+        line-height: 50px;  
+    }
+
+}
+
+@media screen and (min-width: 525px) and (max-width: 625px) {
+    body {
+        overflow-y: auto;
+        overflow-x: auto;
+        padding: 100px;
+    }
+   
+    .search-box {
+        width: 400px;
         background: white;
         color: blue;
         margin: 200px auto 0;
